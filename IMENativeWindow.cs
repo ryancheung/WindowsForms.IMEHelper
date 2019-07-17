@@ -254,8 +254,7 @@ namespace WindowsForms.IMEHelper
                     break;
                 case IMM.ImeStartCompostition:
                     IMEStartComposion(msg.LParam.ToInt32());
-                    if (!_showIMEWin) return;
-                    break;
+                    return;
                 case IMM.ImeComposition:
                     IMEComposition(msg.LParam.ToInt32());
                     break;

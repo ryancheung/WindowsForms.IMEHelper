@@ -23,7 +23,7 @@ namespace WindowsForms.IMEHelper
         {
             InitializeComponent();
 
-            imeHandler = new IMEHandler(this);
+            imeHandler = new IMEHandler(this, false);
             Application.Idle += Application_Idle;
 
             imeHandler.ResultReceived += (s, e) =>
