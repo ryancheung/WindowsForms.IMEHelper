@@ -19,3 +19,7 @@ https://github.com/spurious/SDL-mirror/blob/master/src/video/windows/SDL_windows
 ## Related project MonoGame.IMEHelper
 
 https://github.com/ryancheung/MonoGame.IMEHelper
+
+## Chromium Windows IME Implementation(C/C++)
+
+https://github.com/chromium/chromium/blob/master/ui/base/ime/win/imm32_manager.cc
